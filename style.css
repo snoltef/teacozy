@@ -33,3 +33,24 @@ header a{
     font-size: 22px;
     margin: 10px;
 }
+
+.banner{
+    height: 700px;
+    width: 1200px;
+    background-image: url('media/img-mission-background.jpg');
+    margin-top: 69px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission{
+    background-color: black;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.mission h2, .mission h4{
+    color: seashell;
+}
