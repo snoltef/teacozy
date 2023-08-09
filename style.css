@@ -55,6 +55,26 @@ header a{
     width: 100%;
 }
 
+.locations{
+    background-image: url('media/img-locations-background.jpg');
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    align-items: center;
+}
+
+.address-container{
+    display: flex;
+}
+.address{
+    background-color: black;
+    margin-right: 40px;
+    margin-top: 15px;
+    width: 300px;
+    opacity: 1;
+    text-align: center;
+}
+
 .contact{
     display: flex;
     flex-direction: column;
