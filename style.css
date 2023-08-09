@@ -4,6 +4,10 @@ body{
     opacity: 0.9;
 }
 
+p, h1, h2, h3, h4, h5{
+    color: seashell;
+}
+
 header{
     height: 69px;
     border-bottom: 1px solid seashell;
@@ -51,6 +55,24 @@ header a{
     width: 100%;
 }
 
-.mission h2, .mission h4{
-    color: seashell;
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around
+    align-items: center;
+    height: 200px;
+}
+
+.contact h2, .contact h5{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    align-items: flex-start;
+}
+
+footer p{
+    font-weight: bold;
+    margin-left: 20px;
 }
